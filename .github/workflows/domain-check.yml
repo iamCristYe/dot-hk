@@ -25,7 +25,7 @@ jobs:
 
       - name: Run domain check script
         run: |
-          python hk_domain_check.py
+          python domain.py
 
       - name: Upload results
         uses: actions/upload-artifact@v4
